@@ -94,13 +94,13 @@ export default function Home() {
             من أول اتصال لحد ترتيب آخر قطعة
           </h2>
         </div>
-        <div className="mt-10 flex flex-col md:flex-row items-center justify-center">
+        <div className="mt-10 flex flex-col-reverse md:flex-row items-center justify-center">
           <Process />
-          <div className="mt-6 md:mt-0">
+          <div className="mt-0">
             <Image
               src={logo}
               alt="شعار شركة الفريدة في الفروانية - نقل عفش وتجهيز منازل"
-              className="hidden h-[400px] w-[400px] md:block object-contain"
+              className="md:h-[400px] md:w-[400px] h-[250px] w-[400px] object-contain"
             />
           </div>
         </div>
