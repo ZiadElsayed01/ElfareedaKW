@@ -3,7 +3,7 @@ import { IconStar } from "./Icons";
 
 export default function Testimonials() {
   return (
-    <div className="mx-auto grid max-w-5xl gap-6 px-4 sm:grid-cols-3 sm:px-6">
+    <div className="mx-auto grid max-w-5xl gap-6 px-4 grid-cols-1 sm:px-6">
       {testimonials.map((t) => (
         <figure key={t.name} className="rounded-2xl bg-paper p-6 shadow-sm">
           <div className="flex gap-1 text-gold">

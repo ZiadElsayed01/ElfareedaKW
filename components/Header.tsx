@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { business } from "@/lib/business";
 import { IconPhone } from "./Icons";
+import Image from "next/image";
+import logo from "@/public/images/Elfaredaa-company-logo.webp";
 
 const navLinks = [
   { href: "/", label: "الرئيسية" },
@@ -14,15 +16,25 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-navy text-paper">
       <div className="tape-divider" />
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
-        <Link
-          href="/"
-          className="font-display text-lg font-extrabold leading-tight sm:text-xl"
-        >
-          {business.nameShort}
-          <span className="block text-xs font-normal text-gold">
-            {business.tagline}
-          </span>
-        </Link>
+        <div className="flex items-center justify-center flex-col md:flex-row gap-2">
+          <Image
+            src={logo}
+            alt="شعار شركة الفريدة لنقل العفش"
+            width={240}
+            height={64}
+            className="hidden h-10 w-auto md:block"
+            priority
+          />
+          <Link
+            href="/"
+            className="font-display text-lg font-extrabold leading-tight sm:text-xl"
+          >
+            {business.nameShort}
+            <span className="block text-xs font-normal text-gold">
+              {business.tagline}
+            </span>
+          </Link>
+        </div>
 
         <nav className="hidden items-center gap-6 font-display text-sm font-medium md:flex">
           {navLinks.map((l) => (

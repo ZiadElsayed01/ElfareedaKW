@@ -20,6 +20,10 @@ export const metadata: Metadata = {
     "فك وتركيب عفش الفروانية",
     "تخزين عفش الكويت",
     "نقل اثاث الفروانية",
+    "نقل عفش",
+    "نقل عفش في الكويت",
+    "نقل عفش في الكويت الفروانية",
+    "نقل عفش في جميع مناطق الكويت",
   ],
   alternates: {
     canonical: "/",
@@ -48,7 +52,9 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessSchema()),
+          }}
         />
       </head>
       <body className="antialiased">

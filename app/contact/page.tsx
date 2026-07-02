@@ -25,8 +25,8 @@ export default function ContactPage() {
             نسمع منك، ونرد بسرعة
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base md:text-lg leading-relaxed text-ink/80">
-            راسلنا على واتساب أو اتصل بنا مباشرة، وفريقنا في الفروانية جاهز
-            يجاوبك ويرتب لك موعد المعاينة المجانية.
+            راسلنا على واتساب أو اتصل بنا مباشرة، وفريقنا جاهز يجاوبك ويرتب لك
+            موعد المعاينة المجانية.
           </p>
         </div>
 
@@ -91,7 +91,7 @@ export default function ContactPage() {
               className="h-full min-h-[400px] w-full border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="موقع الشركة على الخريطة"
+              title="موقع شركة الفريدة لنقل العفش على الخريطة"
             />
           </div>
         </div>

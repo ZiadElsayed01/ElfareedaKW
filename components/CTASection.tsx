@@ -8,8 +8,8 @@ export default function CTASection() {
         جاهز تنقل عفشك بأمان؟
       </h2>
       <p className="mx-auto mt-3 max-w-xl text-sm text-paper/70 sm:text-lg">
-        احصل على معاينة مجانية وعرض سعر واضح خلال دقائق — فريقنا في الفروانية
-        جاهز يخدمك اليوم.
+        احصل على معاينة مجانية وعرض سعر واضح خلال دقائق — فريقنا جاهز يخدمك
+        اليوم.
       </p>
       <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <a

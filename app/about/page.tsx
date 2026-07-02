@@ -6,7 +6,7 @@ import { IconCheck } from "@/components/Icons";
 
 export const metadata: Metadata = {
   title: "من نحن",
-  description: `تعرّف على ${business.name}، شركة نقل عفش في الفروانية الكويت بخبرة تتجاوز 10 سنوات وفريق محترف.`,
+  description: `تعرّف على ${business.name}، شركة نقل عفش في الكويت وفريق محترف.`,
   alternates: { canonical: "/about" },
 };
 
@@ -31,9 +31,9 @@ export default function AboutPage() {
             من نحن
           </span>
           <h1 className="mt-2 font-display text-3xl font-extrabold text-navy sm:text-4xl">
-            شريكك الموثوق في نقل العفش بالفروانية
+            شريكك الموثوق في نقل العفش بالكويت
           </h1>
-          <p className="mx-auto mt-6 max-w-xl text-base md:text-lg text-justify leading-relaxed text-ink/80">
+          <p className="mx-auto mt-6 max-w-xl text-base md:text-lg text-center leading-relaxed text-ink/80">
             {business.description} بدأنا كفريق صغير في الفروانية، واليوم نخدم
             معظم مناطق الكويت مع الحفاظ على نفس قيمة الأمانة التي أسسنا عليها
             الشركة.

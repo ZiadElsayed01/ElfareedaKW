@@ -19,12 +19,11 @@ export default function ServicesPage() {
             خدماتنا
           </span>
           <h1 className="mt-2 font-display text-3xl font-extrabold text-navy sm:text-4xl">
-            خدمات نقل عفش شاملة في الفروانية
+            خدمات نقل عفش شاملة في جميع مناطق الكويت
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base md:text-lg leading-relaxed text-ink/80">
             من نقل الأثاث المنزلي لفك وتركيب القطع الكبيرة وتخزين العفش،{" "}
-            {business.nameShort}
-            توفر لك حل متكامل بفريق واحد موثوق.
+            {business.nameShort} توفر لك حل متكامل بفريق واحد موثوق.
           </p>
         </div>
       </section>

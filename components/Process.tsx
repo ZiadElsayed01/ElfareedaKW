@@ -2,8 +2,8 @@ import { process } from "@/lib/business";
 
 export default function Process() {
   return (
-    <div className="mx-auto max-w-5xl px-4 sm:px-0">
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <div className="grid gap-8 md:grid-cols-2">
         {process.map((p, i) => (
           <div key={p.step} className="relative">
             <span className="font-display text-7xl font-extrabold text-navy/10">
