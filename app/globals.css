@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@import "@fontsource/tajawal/500.css";
+@import "@fontsource/tajawal/700.css";
+@import "@fontsource/tajawal/800.css";
+@import "@fontsource/ibm-plex-sans-arabic/400.css";
+@import "@fontsource/ibm-plex-sans-arabic/500.css";
+@import "@fontsource/ibm-plex-sans-arabic/600.css";
+
+:root {
+  /* -- Design tokens -- */
+  --color-navy: #1e2a38;
+  --color-sand: #f1e8d9;
+  --color-paper: #faf6ef;
+  --color-rust: #b5502e;
+  --color-gold: #c89b3c;
+  --color-ink: #26221d;
+}
+
+@theme inline {
+  --color-navy: var(--color-navy);
+  --color-sand: var(--color-sand);
+  --color-paper: var(--color-paper);
+  --color-rust: var(--color-rust);
+  --color-gold: var(--color-gold);
+  --color-ink: var(--color-ink);
+  --font-display: "Tajawal", "Segoe UI", sans-serif;
+  --font-body: "IBM Plex Sans Arabic", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-sand);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tape-divider {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-rust),
+    var(--color-rust) 10px,
+    var(--color-gold) 10px,
+    var(--color-gold) 20px
+  );
+  height: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.bidi-isolate {
+  unicode-bidi: isolate;
+}
