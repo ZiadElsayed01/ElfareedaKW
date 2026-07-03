@@ -11,6 +11,8 @@ export const business = {
   phone: "+96555311394",
   phoneDisplay: "965 5531 1394",
   whatsapp: "96555311394",
+  instagram:
+    "https://www.instagram.com/naqleafsh_1111?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   email: "info@example-movers.kw",
   address: "الحمراء مول - الفروانية - الكويت.",
   areaServed: [

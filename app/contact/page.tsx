@@ -34,6 +34,8 @@ export default function ContactPage() {
           <div className="space-y-4">
             <a
               href={`https://wa.me/${business.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-4 rounded-2xl bg-[#25D366] p-5 text-white transition hover:opacity-90"
             >
               <IconWhatsapp className="h-8 w-8" />
@@ -46,7 +48,6 @@ export default function ContactPage() {
             </a>
 
             <a
-              target="_blank"
               rel="noopener noreferrer"
               href={`tel:${business.phone}`}
               className="flex items-center gap-4 rounded-2xl bg-navy p-5 text-paper transition hover:bg-navy/90"

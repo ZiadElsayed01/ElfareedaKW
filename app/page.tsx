@@ -7,7 +7,7 @@ import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
-import { IconPhone, IconWhatsapp } from "@/components/Icons";
+import { IconPhone, IconWhatsapp, IconInstagram } from "@/components/Icons";
 import Image from "next/image";
 import truckImage from "@/public/images/naql-3afsh-farwaniya-truck.webp";
 import logo from "@/public/images/Elfaredaa-company-logo.webp";
@@ -38,6 +38,8 @@ export default function Home() {
           <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
               href={`https://wa.me/${business.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-display text-sm font-bold text-white transition hover:opacity-90 sm:w-auto"
             >
               <IconWhatsapp className="h-5 w-5" />
@@ -45,10 +47,22 @@ export default function Home() {
             </a>
             <a
               href={`tel:${business.phone}`}
+              rel="noopener noreferrer"
               className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-navy px-6 py-3 font-display text-sm font-bold text-navy transition hover:bg-navy hover:text-paper sm:w-auto"
             >
               <IconPhone className="h-5 w-5" />
               اتصل بنا الآن
+            </a>
+          </div>
+          <div className="w-full md:w-fit mx-auto mt-3">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={business.instagram}
+              className="flex  items-center justify-center gap-2 rounded-full bg-pink-600 px-6 py-3 font-display text-sm font-bold text-white transition hover:opacity-90 sm:w-auto"
+            >
+              <IconInstagram className="h-5 w-5" />
+              تابعنا علي الانستجرام
             </a>
           </div>
         </div>

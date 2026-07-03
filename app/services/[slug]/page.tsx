@@ -67,6 +67,8 @@ export default async function ServiceDetailPage({
           <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
               href={`https://wa.me/${business.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-display text-sm font-bold text-white transition hover:opacity-90 sm:w-auto"
             >
               <IconWhatsapp className="h-5 w-5" />
@@ -74,6 +76,7 @@ export default async function ServiceDetailPage({
             </a>
             <a
               href={`tel:${business.phone}`}
+              rel="noopener noreferrer"
               data-tel={business.phone}
               dir="ltr"
               className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-navy px-6 py-3 font-display text-sm font-bold text-navy transition hover:bg-navy hover:text-paper sm:w-auto"

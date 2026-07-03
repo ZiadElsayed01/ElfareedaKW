@@ -51,6 +51,7 @@ export default function Footer() {
               <a
                 dir="ltr"
                 href={`tel:${business.phone}`}
+                rel="noopener noreferrer"
                 className="transition hover:text-gold "
               >
                 {business.phoneDisplay}
@@ -60,6 +61,8 @@ export default function Footer() {
               <IconWhatsapp className="h-4 w-4 shrink-0 text-gold" />
               <a
                 href={`https://wa.me/${business.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="transition hover:text-gold"
               >
                 واتساب

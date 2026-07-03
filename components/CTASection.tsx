@@ -14,6 +14,8 @@ export default function CTASection() {
       <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <a
           href={`https://wa.me/${business.whatsapp}`}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-display text-sm font-bold text-white transition hover:opacity-90 sm:w-auto"
         >
           <IconWhatsapp className="h-5 w-5" />
@@ -21,6 +23,7 @@ export default function CTASection() {
         </a>
         <a
           href={`tel:${business.phone}`}
+          rel="noopener noreferrer"
           className="flex w-full items-center justify-center gap-2 rounded-full bg-rust px-6 py-3 font-display text-sm font-bold text-paper transition hover:bg-gold hover:text-navy sm:w-auto"
         >
           <IconPhone className="h-5 w-5" />
