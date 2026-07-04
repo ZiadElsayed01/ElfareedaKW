@@ -13,7 +13,7 @@ export const business = {
   whatsapp: "96555311394",
   instagram:
     "https://www.instagram.com/naqleafsh_1111?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-  email: "info@example-movers.kw",
+  email: "info@alfareedakw.com",
   address: "الحمراء مول - الفروانية - الكويت.",
   areaServed: [
     "الفروانية",
@@ -32,8 +32,8 @@ export const business = {
   hours: "يوميًا من 8 صباحًا حتى 11 مساءً",
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3480.2428796569293!2d47.962776999999996!3d29.275197000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9b9f0ee2de4d%3A0x8611c35abf1d1a45!2sAl%20Hamra%20Mall!5e0!3m2!1sen!2seg!4v1783031022226!5m2!1sen!2seg",
-  socialGoogleReviewUrl: "#", // ضع رابط صفحة تقييمات جوجل بيزنس الحقيقي
-  domain: "https://example-movers.kw", // استبدله بالدومين الحقيقي بعد الشراء
+  socialGoogleReviewUrl: "#",
+  domain: "https://alfareedakw.com/",
 };
 
 export const stats = [
